@@ -8,6 +8,7 @@ interface AuthContextProps {
 
 interface UserInfoProps {
   email: string;
+  password: string;
 }
 
 interface AuthContextProviderProps {

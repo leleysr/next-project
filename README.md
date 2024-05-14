@@ -1,8 +1,29 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Next Project
 
-First, run the development server:
+## Descrição
+
+Esse é um projeto desenvolvido para demonstrar os conhecimentos com o framework NextJs.
+Nesse projeto, existe um menu para navegação entre as páginas criadas, sendo elas: Home, Contact, About, Login, My Account e Users. O link de Login só é exibido no caso do usuário ainda não ter efetuado o login. Caso o mesmo tenha sido efetuado, o link é substituido pelo link de My account, onde as informações do usuário logado são exibidas.
+
+### Instalação
+
+Para iniciar, clone o repositório: `https://github.com/leleysr/next-project.git`
+
+#### Instalando dependências
+
+Para instalar as dependencias do projeto, execute um dos seguintes comandos:
+
+```bash
+npm i
+# or
+npm install
+# or
+yarn install
+```
+
+Após instalar as dependências, para rodar o projeto localmente, execute:
 
 ```bash
 npm run dev
@@ -14,23 +35,18 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após isso, abra no navegador a url: [http://localhost:3000](http://localhost:3000), e assim você terá acesso ao projeto desenvolvido.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Menu: Foi desenvolvido um menu global, exibido em todas as páginas, contendo links que redirecionam o usuário para o conteúdo correspondente selecionado. Um ponto importante é que o link de login só é exibido se o usuário ainda não ter efetuado o login. Caso contrário, o link é substituido pelo link de my account, onde as informações do usuário logado são exibidas. Ao tentar acessar a página de my account substituindo a url sem ter sido feito login previamente, o usuário é redirecionado para a página de login.
 
-## Learn More
+- Login: Na página de login, é possivel que o login de um usuário seja efetuado através de um formulário. Nos campos para login, são solicitados o e-mail e a senha. No input de e-mail, é realizada uma validação onde apenas entradas no formato de e-mail são aceitas. No campo de senha, é solicitada uma quantidade mínima de 8 caracteres. Caso alguma regra falhe em algum dos inputs, um texto indicativo é exibido.
 
-To learn more about Next.js, take a look at the following resources:
+- Listagem de usuários: Na página users, é consumida uma api, de onde são obtidos dados de diversos usuários, os quais são listados em grupos de 5 usuários, os quais podem ser alterados através da paginação da lista.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Logout do usuário: Após ter efetuado o login, o usuário pode realizar o logout na página my account, onde existe uma opção para se desconectar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contato
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Qualquer dúvida, não hesite em entrar em contato via e-mail: wanderleysr00@gmail.com

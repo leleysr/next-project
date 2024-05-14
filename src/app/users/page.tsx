@@ -77,7 +77,7 @@ export default function Users() {
           <Spinner></Spinner>
         </div>
       )}
-      {usersData && usersData.length > 0 && (
+      {!isLoadingData && usersData && usersData.length > 0 && (
         <>
           <ul className="w-full flex flex-col items-center justify-start gap-2 mt-3">
             {usersData.map((user: any, index: number) => {

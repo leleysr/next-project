@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
       <div>
-        <div className="text-xl font-semibold">
+        <div className="text-xl font-semibold text-center">
           Bem-vindo ao Meu Site
           {userInfo?.email ? `, ${userInfo?.email}!` : "!"}
         </div>

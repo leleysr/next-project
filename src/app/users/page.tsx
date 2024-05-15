@@ -63,6 +63,9 @@ export default function Users() {
           setUsersData(dataArray);
         }
       })
+      .catch(() => {
+        console.log("Error fetching data");
+      })
       .finally(() => {
         setIsLoadingData(false);
       });

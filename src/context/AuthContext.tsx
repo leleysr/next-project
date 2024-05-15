@@ -15,7 +15,9 @@ interface AuthContextProviderProps {
   children: React.ReactNode;
 }
 
-const AuthContext = createContext<AuthContextProps>({} as AuthContextProps);
+export const AuthContext = createContext<AuthContextProps>(
+  {} as AuthContextProps
+);
 
 const AuthContextProvider = ({ children }: AuthContextProviderProps) => {
   const [userInfo, setUserInfo] = useState<UserInfoProps>({} as UserInfoProps);

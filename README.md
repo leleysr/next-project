@@ -47,6 +47,18 @@ Após isso, abra no navegador a url: [http://localhost:3000](http://localhost:30
 
 - Logout do usuário: Após ter efetuado o login, o usuário pode realizar o logout na página my account, onde existe uma opção para se desconectar.
 
+## Executar testes unitários
+
+Para executar os testes unitários criados, execute um dos seguintes comandos:
+
+```bash
+npm test
+# or
+npm run test
+# or
+yarn test
+```
+
 ## Contato
 
 Qualquer dúvida, não hesite em entrar em contato via e-mail: wanderleysr00@gmail.com

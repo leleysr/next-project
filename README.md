@@ -37,6 +37,10 @@ bun dev
 
 Após isso, abra no navegador a url: [http://localhost:3000](http://localhost:3000), e assim você terá acesso ao projeto desenvolvido.
 
+### Observação
+
+No desenvolvimento, utilizei o Node na versão 20.11.0. Se ocorrerem problemas ao executar algum comando, tentar alterar a versão do Node utilizada.
+
 ## Funcionalidades
 
 - Menu: Foi desenvolvido um menu global, exibido em todas as páginas, contendo links que redirecionam o usuário para o conteúdo correspondente selecionado. Um ponto importante é que o link de login só é exibido se o usuário ainda não ter efetuado o login. Caso contrário, o link é substituido pelo link de my account, onde as informações do usuário logado são exibidas. Ao tentar acessar a página de my account substituindo a url sem ter sido feito login previamente, o usuário é redirecionado para a página de login.
@@ -58,6 +62,10 @@ npm run test
 # or
 yarn test
 ```
+
+### Observação
+
+No desenvolvimento, utilizei o Node na versão 20.11.0. Se ocorrerem problemas ao executar algum comando, tentar alterar a versão do Node utilizada.
 
 ## Contato
 

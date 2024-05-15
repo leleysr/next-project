@@ -39,7 +39,7 @@ Após isso, abra no navegador a url: [http://localhost:3000](http://localhost:30
 
 ### Observação
 
-No desenvolvimento, utilizei o Node na versão 20.11.0. Se ocorrerem problemas ao executar algum comando, tentar alterar a versão do Node utilizada.
+No desenvolvimento, utilizei o Node na versão 20.11.0. Se ocorrerem problemas ao executar algum comando, tente alterar a versão do Node utilizada.
 
 ## Funcionalidades
 
@@ -65,7 +65,7 @@ yarn test
 
 ### Observação
 
-No desenvolvimento, utilizei o Node na versão 20.11.0. Se ocorrerem problemas ao executar algum comando, tentar alterar a versão do Node utilizada.
+No desenvolvimento, utilizei o Node na versão 20.11.0. Se ocorrerem problemas ao executar algum comando, tente alterar a versão do Node utilizada.
 
 ## Contato
 
